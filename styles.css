@@ -46,6 +46,7 @@ h1 {
     flex-direction: column;
     padding-left: 350px ;
     max-width: 500px;
+    row-gap: 20px;
 }
 
 .child {
@@ -126,4 +127,49 @@ h3 {
     text-align: end;
     font-weight: bold;
     margin-top: 10px;
+}
+
+.row-four {
+    display: flex;
+    justify-content: center;
+}
+
+.pop-up {
+    display: flex;
+    background-color: #3882f6;
+    margin: 150px 0;
+    width: 956px;
+    height: 100px;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 15px 100px;
+    border-radius: 10px;
+}
+
+.pop-up-text {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    justify-content: center;
+}
+
+.pop-up-bold {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pop-up-button {
+    height: 30px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    border: 1px solid #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    padding: 40px;
+    color: #f9faf8;
 }
