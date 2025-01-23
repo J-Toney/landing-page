@@ -75,3 +75,29 @@ h1 {
     border-radius: 10px;
     border-color: #3882f6;
 }
+
+.info img {
+    width: 200px;
+    height: auto;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    border-color: #3882f6;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+.info {
+    max-width: 200px;
+}
